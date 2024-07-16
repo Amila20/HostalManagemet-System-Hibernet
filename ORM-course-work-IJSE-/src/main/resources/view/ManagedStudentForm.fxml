@@ -26,7 +26,7 @@
             <ToggleGroup fx:id="radioBtnGender" />
          </toggleGroup></RadioButton>
       <RadioButton fx:id="radioBtnFemale" layoutX="803.0" layoutY="131.0" mnemonicParsing="false" text="Female" toggleGroup="$radioBtnGender" />
-      <TableView fx:id="tblStudent" layoutX="11.0" layoutY="258.0" prefHeight="228.0" prefWidth="985.0" stylesheets="@../assets/css/btnStyle.css" tableMenuButtonVisible="true">
+      <TableView fx:id="tblStudent" layoutX="11.0" layoutY="258.0" prefHeight="228.0" prefWidth="985.0" stylesheets="@../../../../../resources/assets/css/btnStyle.css" tableMenuButtonVisible="true">
         <columns>
           <TableColumn fx:id="colStudentId" prefWidth="130.0" text="Student id" />
           <TableColumn fx:id="colStudentName" prefWidth="400.0" text="Student name" />

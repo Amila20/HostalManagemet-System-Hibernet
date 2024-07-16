@@ -11,12 +11,12 @@
 <AnchorPane prefHeight="543.0" prefWidth="1016.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse.controller.DashBoardFormController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="59.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="1016.0" />
-      <Button fx:id="btnManageStudent" layoutX="247.0" layoutY="60.0" mnemonicParsing="false" onAction="#btnManageStudentOnAction" prefHeight="38.0" prefWidth="165.0" style="-fx-background-color: green;" stylesheets="@../assets/css/btnStyle.css" text="Manage student" textFill="WHITE">
+      <Button fx:id="btnManageStudent" layoutX="247.0" layoutY="60.0" mnemonicParsing="false" onAction="#btnManageStudentOnAction" prefHeight="38.0" prefWidth="165.0" style="-fx-background-color: green;" stylesheets="@../../../../../resources/assets/css/btnStyle.css" text="Manage student" textFill="WHITE">
          <font>
             <Font name="Calisto MT" size="19.0" />
          </font>
       </Button>
-      <Button fx:id="btnManageRooms" layoutX="433.0" layoutY="61.0" mnemonicParsing="false" onAction="#btnManageRoomsOnAction" prefHeight="38.0" prefWidth="165.0" style="-fx-background-color: green;" stylesheets="@../assets/css/btnStyle.css" text="Manage rooms" textFill="WHITE">
+      <Button fx:id="btnManageRooms" layoutX="433.0" layoutY="61.0" mnemonicParsing="false" onAction="#btnManageRoomsOnAction" prefHeight="38.0" prefWidth="165.0" style="-fx-background-color: green;" stylesheets="@../../../../../resources/assets/css/btnStyle.css" text="Manage rooms" textFill="WHITE">
          <font>
             <Font name="Calisto MT" size="19.0" />
          </font>
